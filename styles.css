@@ -1,1 +1,14 @@
-#main {}
+#video {
+  max-height: 500px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
