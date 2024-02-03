@@ -29,11 +29,27 @@ main {
   .main-header {
     font-size: 88px;
   }
+
+  .header-3.small-grid-header {
+    font-size: 24px;
+  }
+
+  .paragraph.small-grid-p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1366px) {
   .main-header {
     font-size: 64px;
+  }
+
+  .header-3.small-grid-header {
+    font-size: 18px;
+  }
+
+  .paragraph.small-grid-p {
+    font-size: 14px;
   }
 }
 
@@ -67,14 +83,15 @@ main {
   font-size: 48px;
   margin: 0;
   padding: 0;
+  letter-spacing: 2px;
   font-weight: 400;
 }
 
 .image-big {
   min-width: 632px;
-  max-width: 1504px;
+  max-width: 100%;
   min-height: 632px;
-  max-height: 1504px;
+  max-height: 1440px;
 }
 
 .project {
@@ -87,7 +104,7 @@ main {
 
 .image-small {
   min-width: 300px;
-  max-width: 704px;
+  max-width: 100%;
   min-height: 300px;
   max-height: 704px;
 }
@@ -96,6 +113,7 @@ main {
   font-size: 32px;
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
   font-weight: 400;
 }
 
