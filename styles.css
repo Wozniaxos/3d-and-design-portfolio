@@ -1,14 +1,142 @@
 #video {
-  max-height: 500px;
+  max-width: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #FCFCFC;
+  font-family: 'DM Sans', sans-serif;
 }
 
 main {
   display: flex;
   justify-content: center;
+  position: relative;
+  padding: 200px 208px;
+}
+
+.main-header {
+  font-size: 112px;
+  margin: 0;
+  letter-spacing: 5px;
+  padding: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 1634px) {
+  .main-header {
+    font-size: 88px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .main-header {
+    font-size: 64px;
+  }
+}
+
+.paragraph.adjustable-font {
+  font-size: 20px;
+}
+
+.header-container {
+  display: flex;
+  gap: 88px;
+  align-items: flex-end;
+  max-width: 1440px;
+}
+
+.header-container-left {
+  width: 70%;
+}
+
+.header-container-right {
+  width: 30%;
+}
+
+.logo {
+  max-height: 100px;
+  position: absolute;
+  left: -112px;
+  top: -160px;
+}
+
+.header-2 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.image-big {
+  min-width: 632px;
+  max-width: 1504px;
+  min-height: 632px;
+  max-height: 1504px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.image-small {
+  min-width: 300px;
+  max-width: 704px;
+  min-height: 300px;
+  max-height: 704px;
+}
+
+.header-3 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.positioned {
+  position: absolute;
+  top: -88px;
+  width: 100%;
+  left: 0;
+}
+
+.text-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-element {
+  position: relative;
+}
+
+.paragraph {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-wrap: wrap;
+  max-width: 100%;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 160px;
+  position: relative;
+}
+
+.small-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  position: relative;
 }
