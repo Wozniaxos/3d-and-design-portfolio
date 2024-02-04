@@ -45,7 +45,7 @@ main {
 .logo {
   max-height: 88px;
   position: absolute;
-  left: -106px;
+  left: -92px;
   top: -160px;
 }
 
@@ -142,6 +142,10 @@ main {
   .paragraph.small-grid-p {
     font-size: 20px;
   }
+
+  main {
+    padding: 160px 160px;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -155,6 +159,14 @@ main {
 
   .paragraph.small-grid-p {
     font-size: 14px;
+  }
+
+  .logo {
+    top: -100px;
+  }
+
+  main {
+    padding: 96px 96px;
   }
 }
 
@@ -198,8 +210,6 @@ main {
   .image-big {
     min-width: 300px;
     min-height: 300px;
-    max-width: 300px;
-    max-height: 300px;
   }
 
   footer {
@@ -217,13 +227,10 @@ main {
 
   .image-small {
     min-width: 300px;
-    min-height: 300px;
-    max-width: 300px;
-    max-height: 300px;
   }
 
   main {
-    padding: 0;
+    padding: 8px 8px;
     margin: 0;
   }
 }
